@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 300px;
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+
+      h1 {
+        background-color: #4285f4;
+        color: white;
+        padding: 10px;
+        margin: 0;
+      }
+
+      #image-previews {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0 10px 10px;
+        margin-top: 10px; /* Add margin-top */
+      }
+
+      .image-container {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Google Doc Images</h1>
+    <div id="image-previews"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
+
